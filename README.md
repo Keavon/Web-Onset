@@ -1,2 +1,6 @@
-# Web-Onset
-Experimental implementation of music onset detection in the Web Audio API
+### Web Audio Musical Onset Detection
+This project is an implementation of [spectral flux](https://en.wikipedia.org/wiki/Spectral_flux)-based [onset detection](https://en.wikipedia.org/wiki/Onset_(audio)) in the JavaScript [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API). It is built with the intent of powering procedural content generation in music-focused games and interactive web experiences. The project loosely implements logic and procedures described in the [Onset Detection tutorial series](http://www.badlogicgames.com/wordpress/?p=122) by Badlogic Games.
+
+At this time, the project is only a graphical visualizer. The red plot corresponds to the music waveform; green to the spectral flux; purple to the threshold of locally averaged flux values; and blue to the peaks of regions where the spectral flux exceeds the threshold. The external orange graph displays an attempt at displaying the frequency of the detected onsets, however this approach appears to be mathematically flawed.
+
+The project still needs to determine the numerical onset rate in order to determine a BPM of a song. It also could be improved by looking at differing frequency ranges for improved recognition based on classes of instruments and genres. Please feel free to submit pull requests!
