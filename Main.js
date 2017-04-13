@@ -1,4 +1,4 @@
-const MUSIC_URL = "https://ia802609.us.archive.org/9/items/Free_20s_Jazz_Collection/Ambassadors_Me_And_The_Man_In_The_Moon.mp3";
+const MUSIC_URL = "https://ia801301.us.archive.org/17/items/ElectroSwingCollection/Electro%20Swing%20Collection.ogg";
 
 var context = new AudioContext();
 var source = context.createBufferSource();
