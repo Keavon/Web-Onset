@@ -1,4 +1,4 @@
-const MUSIC_URL = "https://ia801301.us.archive.org/17/items/ElectroSwingCollection/Electro%20Swing%20Collection.ogg";
+const MUSIC_URL = "https://ia801003.us.archive.org/31/items/DWK260/Boogie_Belgique_-_03_-_Red_Steam.ogg";
 
 var context = new AudioContext();
 var source = context.createBufferSource();
