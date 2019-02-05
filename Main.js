@@ -37,7 +37,7 @@ function visualize(samples, flux, threshold, prunnedSpectralFlux, peakFreq) {
 	plotSamples(flux, 1024, context.currentTime - startTime, 0, xScale, yScale, "green");
 	plotSamples(threshold, 1024, context.currentTime - startTime, 0, xScale, yScale, "purple");
 	plotSamples(prunnedSpectralFlux, 1024, context.currentTime - startTime, 0, xScale, yScale, "blue");
-	plotSamples(peakFreq, 1, 0, 250, 1, 1000, "orange", true);
+	//plotSamples(peakFreq, 1, 0, 250, 1, 1000, "orange", true);
 	
 	requestAnimationFrame(function() {
 		visualize(samples, flux, threshold, prunnedSpectralFlux, peakFreq);
